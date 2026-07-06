@@ -1,0 +1,7 @@
+# Objetivos especificos
+
+1. Diseñar un módulo de publicación de productos que permita a los aprendices e instructores registrar artículos de segunda mano con descripción, imágenes y precio.
+2. Implementar un sistema de verificación de usuarios mediante correo institucional del SENA, para garantizar que solo aprendices e instructores accedan a la plataforma.
+3. Desarrollar un buscador con filtros por categoría, precio y estado del producto, que facilite la localización de artículos específicos.
+4. Crear un sistema de mensajería interna que permita la comunicación directa entre comprador y vendedor dentro de la plataforma, sin depender de canales externos.
+5. Establecer un mecanismo de calificación o reputación entre usuarios, que refuerce la confianza en las transacciones realizadas.

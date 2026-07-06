@@ -1,0 +1,15 @@
+# Funcionalidades
+
+● Qué funcionalidades implementa. 
+1. Registro y verificación de usuarios mediante correo institucional del SENA.
+2. Publicación de productos con descripción, imágenes y precio.
+3. Catálogo visible con filtros de búsqueda por categoría, precio y estado del producto.
+4. Mensajería interna entre comprador y vendedor.
+5. Sistema básico de calificación (puntuación simple) tras cada transacción.
+
+---
+
+● Qué funcionalidades quedan para futuras versiones. 
+1. Notificaciones por correo electrónico sobre nuevas publicaciones de interés.
+2. Estadísticas de uso o panel administrativo para el CGMLTI.
+3. Expansión a otras sedes del SENA fuera del CGMLTI Bogotá.
