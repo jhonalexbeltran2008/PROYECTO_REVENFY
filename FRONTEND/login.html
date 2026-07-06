@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Revenfy</title>
+    <!-- Agregamos CDN de FontAwesome para el ícono del ojo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Revenfy.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="login-page">
+
+    <div class="login-card">
+
+        <!-- MEJORA 1: Logo enlazado al inicio -->
+        <a href="index.html" title="Volver al inicio">
+            <img src="Revenfy.png" alt="Logo Revenfy">
+        </a>
+
+        <h1>Bienvenido</h1>
+        <p>Inicia sesión para continuar</p>
+
+        <form id="loginForm" class="login-form">
+
+            <!-- MEJORA 3 y 4: Autocomplete y Aria-Label -->
+            <input
+                type="email"
+                id="correo"
+                placeholder="Correo electrónico"
+                autocomplete="username"
+                aria-label="Correo electrónico"
+                required
+            >
+
+            <!-- MEJORA 2: Implementación de tu estructura CSS para contraseña -->
+            <div class="password-container">
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Contraseña"
+                    autocomplete="current-password"
+                    aria-label="Contraseña"
+                    required
+                >
+                <button type="button" class="toggle-password" id="togglePassword" aria-label="Mostrar u ocultar contraseña">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
+
+            <button type="submit" class="btn-login">
+                Iniciar Sesión
+            </button>
+
+        </form>
+
+        <div class="login-footer">
+            ¿No tienes cuenta?
+            <a href="registrarse.html">Regístrate</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/login.js"></script>
+</body>
+</html>
