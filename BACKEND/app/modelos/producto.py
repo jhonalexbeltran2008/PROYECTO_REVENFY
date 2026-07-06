@@ -1,5 +1,5 @@
 from typing import Optional
-
+from usuario import Usuario
 from sqlmodel import SQLModel, Field, Relationship
 
 
